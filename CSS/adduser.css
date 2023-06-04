@@ -1,0 +1,86 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cookie&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Flex:opsz@8..144&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    line-height: 2;
+    background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.wrapper {
+    border-radius: 10px;
+    padding: 30px;
+    width: 700px;
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+}
+.anchor{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.inputField,
+input[type=text] {
+    border: 1px solid;
+    outline: none;
+    border-radius: 5px;
+    background: transparent;
+    height: 32px;
+    padding: 0 10px;
+}
+
+input:focus {
+    border: 2px solid #0aa8c2;
+}
+
+.inputField {
+    width: 310px;
+}
+
+span {
+    margin-right: 45px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+}
+
+.margin-left {
+    margin-left: 155px;
+}
+
+input[type=submit] {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(71, 238, 80, 0.87);
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+input[type=submit]:hover {
+    background-color: rgba(56, 207, 68, 0.87);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(37, 212, 37);
+    display: block;
+    margin: auto;
+}
